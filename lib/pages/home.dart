@@ -122,6 +122,6 @@ class _HomePageState extends State<HomePage> {
       setState(() {});
     }
 
-    Navigator.pop(context);
+    Navigator.pop(context); //para cerrar el dialogo
   }
 }

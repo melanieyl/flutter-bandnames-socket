@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:band_names/pages/home.dart';
 
 void main() => runApp(MyApp());
@@ -12,6 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       initialRoute: 'home',
+      //defino las rutas
       routes: {'home': (_) => HomePage()},
     );
   }
